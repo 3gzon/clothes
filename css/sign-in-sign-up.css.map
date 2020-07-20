@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../src/pages/sign-in-sign-up/sign-in-sign-up.scss"
+    ],
+    "names": [],
+    "file": "sign-in-sign-up.css"
+}
