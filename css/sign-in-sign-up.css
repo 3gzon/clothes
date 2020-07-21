@@ -1,1 +1,11 @@
-/* No CSS *//*# sourceMappingURL=sign-in-sign-up.css.map */
+.sign-in-sign-up {
+  width: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px auto;
+}
+/*# sourceMappingURL=sign-in-sign-up.css.map */
