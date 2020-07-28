@@ -50,7 +50,7 @@ export default class signUp extends Component {
                         value={displayName}
                         onChange={this.handleChange}
                         label="Display Name"
-                        require
+                        require="true"
                     />
                     <FormInput
                         type="email"
@@ -58,7 +58,7 @@ export default class signUp extends Component {
                         value={email}
                         onChange={this.handleChange}
                         label="Email"
-                        require
+                        require="true"
                     />
                     <FormInput
                         type="password"
@@ -66,7 +66,7 @@ export default class signUp extends Component {
                         value={password}
                         onChange={this.handleChange}
                         label="Password"
-                        require
+                        require="true"
                     />
                     <FormInput
                         type="password"
@@ -74,7 +74,7 @@ export default class signUp extends Component {
                         value={confirmPassword}
                         onChange={this.handleChange}
                         label="ConfirmPassword"
-                        require
+                        require="true"
                     />
                     <CustomButton type="submit">Sign Up</CustomButton>
                 </form>

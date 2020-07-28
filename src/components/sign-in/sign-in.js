@@ -33,8 +33,8 @@ export default class signIn extends Component {
                 <h2>I already have acconut</h2>
                 <span>Sign in with your email and password</span>
                 <form onSubmit={this.handleSubmit}>
-                    <FormInput name="email" id="email" label="Email" handleChange={this.handleChange} type="email" value={this.state.email} required />
-                    <FormInput label="Password" name="password" id="password" handleChange={this.handleChange} type="password" value={this.state.password} required />
+                    <FormInput name="email" id="email" label="Email" handleChange={this.handleChange} type="email" value={this.state.email} require="true" />
+                    <FormInput label="Password" name="password" id="password" handleChange={this.handleChange} type="password" value={this.state.password} require="true" />
                     <div className="buttons">
                         <CustomButton type="submit">Sign In</CustomButton>
                         <CustomButton onClick={signInWithGoogle} isGoogleSignIn>Sign In with Google</CustomButton>
